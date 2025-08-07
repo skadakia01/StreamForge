@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Upload, Filter, Download, AlertTriangle, TrendingUp, Clock } from 'lucide-react';
 import { LogAnalyzer } from '../analysis/LogAnalyzer';
-import { PerformanceMetrics } from '../dashboard/PerformanceMetrics';
+import { PerformanceMetrics } from './PerformanceMetrics';
 import { OptimizationSuggestions } from '../analysis/OptimizationSuggestions';
 
 export function PerformanceMonitor() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { GitBranch, Clock, TrendingUp, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
 import { MetricCard } from '../ui/MetricCard';
-import { RecentPipelines } from './RecentPipelines';
+import { RecentPipelines } from '../dashboard/RecentPipelines';
 import { PerformanceChart } from '../charts/PerformanceChart';
 
 export function Dashboard() {
